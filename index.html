@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <title>CodePlayer</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+      <nav>
+    <div id="barra">
+      <div id="logo">CodePlayer</div>
+     
+      <div id="contenedorBotones">
+        <div id="html" class="boton botonActivo">HTML</div>
+        <div id="css" class="boton">CSS</div>
+        <div id="javascript" class="boton">JavaScript</div>
+        <div id="output" class="boton botonActivo">Output</div>
+      </div>
+    </div>
+    </nav>
+
+
+
+    <section class="basic-grid">
+        <div class="card" id="htmlDiv">
+            <h2 class="titulodiv">HTML</h2>
+            <!-- <div id="contenedorBody"> -->
+                <textarea name=""  class="panel" id="htmlPanel">
+
+ <p>Escriba su códgo</p>
+ <h1>HTML</h1>
+ <p>aquí</p> 
+ </textarea>
+            <!-- </div> -->
+</div>
+        <div class="card oculto" id="cssDiv" ><h2 class="titulodiv">CSS</h2><textarea id="cssPanel" class="panel">
+ /* Escriba su código CSS aquí */ </textarea>
+            </div>
+
+
+        <div class="card oculto" id="javascriptDiv"><h2 class="titulodiv">Javascript</h2><textarea id="javascriptPanel"  class="panel">
+ // Escriba su código JavaScript aquí //</textarea></div>
+
+
+        <div class="cardB" id="outputDiv"><h2 class="titulodiv" style="color: black;">Output</h2>
+            <iframe  id="outputPanel" class="panel"></iframe> 
+        </div> 
+        
+    </section>
+
+     
+   
+
+     
+     
+     
+    </div>
+
+
+
+
+     <script src="app.js"></script>
+  </body>
+</html>

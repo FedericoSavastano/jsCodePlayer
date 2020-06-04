@@ -4,6 +4,15 @@ body {
   font-family: "Prompt", sans-serif;
   background: rgb(19, 19, 19);
   color: #fff;
+  
+  background-image: url(https://images.unsplash.com/photo-1535136104956-115a2cd67fc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80);
+  background-repeat: round;
+  backdrop-filter: blur(2px) opacity(80%);
+}
+
+#logo {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px blueviolet;
 }
 
 .card {
